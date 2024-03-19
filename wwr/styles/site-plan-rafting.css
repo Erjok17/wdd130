@@ -17,6 +17,7 @@ body{
     --nav-link-color:#E26d00;
     --nav-hover-link-color:#E26d00;
     --nav-hover-background-color:#DB6600;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color:var(--primary-color);
