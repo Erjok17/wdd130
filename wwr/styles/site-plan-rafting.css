@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&family=Ewert&display=swap');
+body{
+    font-family: var(Roboto,);
+    max-width: 960 px;
+    padding: 20 px;
+}
+:root{
+    --primary-color: #d45f00;
+    --secondary-color:#FF8801;
+    --accent1-color:#FF950B;
+    --accent2-color:#FFAD1F;
+    
+    --heading-font: 'Ewert',serif;
+    --paragraph-font:'Roboto',serif;
+
+    --nav-background-color:#DB6600;
+    --nav-link-color:#E26d00;
+    --nav-hover-link-color:#E26d00;
+    --nav-hover-background-color:#DB6600;
+}body{
+    font-family: var(Roboto,);
+    max-width: 960 px;
+    padding: 20 px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
+}
