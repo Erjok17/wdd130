@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&family=Ewert&display=swap');
 body{
-    font-family: var(Roboto,);
+    font-family: var(Roboto);
     max-width: 960 px;
     padding: 20 px;
 }
@@ -18,7 +18,7 @@ body{
     --nav-hover-link-color:#E26d00;
     --nav-hover-background-color:#DB6600;
 }body{
-    font-family: var(Roboto,);
+    font-family: var(Roboto);
     max-width: 960 px;
     padding: 20 px;
 }
