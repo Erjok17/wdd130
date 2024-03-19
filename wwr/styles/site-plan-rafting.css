@@ -17,11 +17,6 @@ body{
     --nav-link-color:#E26d00;
     --nav-hover-link-color:#E26d00;
     --nav-hover-background-color:#DB6600;
-}body{
-    font-family: var(Roboto);
-    max-width: 960 px;
-    padding: 20 px;
-}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color:var(--primary-color);
