@@ -34,6 +34,9 @@ footer {
     background-color: aquamarine;
     color: black;
 }
+aside{
+    position: relative;
+}
 aside h2{
     position: absolute;
     top: 245px;
