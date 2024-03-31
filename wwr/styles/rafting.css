@@ -53,30 +53,33 @@ nav a:hover{
     display: block;
     width: 100%;
     height: auto;
-} 
-.hero{
-    position: relative;
-    width: 250px;
-    left: 500px;
-    text-align: center;
 }
-article{
+hero-content {
     position: absolute;
-    width: 250px;
-    left: 15px;
-    top: 1px;
-}
-h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
     position: absolute;
-    top:1px;
-}
-.hero img{
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .hero-content article {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .hero-content article p {
     float: right;
-}
-article{
-    background-color: #f0a639;
-    opacity: 1;
-}
-#just{
-    position: absolute;
-}
+  }
+  
