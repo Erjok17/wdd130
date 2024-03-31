@@ -50,13 +50,33 @@ nav a:hover{
 
 }
 .hero img{
-    position: relative;
-    float: right;
     display: block;
     width: 100%;
     height: auto;
 } 
-h1,article{
+.hero{
+    position: relative;
+    width: 250px;
+    left: 500px;
+    text-align: center;
+}
+article{
+    position: absolute;
+    width: 250px;
+    left: 15px;
+    top: 1px;
+}
+h1{
+    position: absolute;
+    top:1px;
+}
+.hero img{
+    float: right;
+}
+article{
+    background-color: #f0a639;
+    opacity: 1;
+}
+#just{
     position: absolute;
 }
-
