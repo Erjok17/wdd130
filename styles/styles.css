@@ -22,7 +22,9 @@ aside img {
 p {
     padding: 0;
 }
-footer {
+header, .grid ,footer {
+    max-width: 840px;
+    margin: auto;
     margin-top: 15px;
     border-top: 1px solid rgba(0,0,0,.1);
     text-align: center;
@@ -40,7 +42,35 @@ aside h2{
     top: 245px;
     left: 100px;
 }
+nav{
+    background-color: aqua;
+    padding: 1rem;
+    display: flex;
+    align-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0c0c0c; 
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
 
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
 
-
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 

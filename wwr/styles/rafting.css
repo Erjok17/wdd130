@@ -51,9 +51,12 @@ nav a:hover{
 }
 .hero img{
     display: block;
-    width: 100%;
+    width: 650px;
     height: auto;
+    position: relative;
+    top: 2px;
 }
+
 hero-content {
     position: absolute;
     top: 50%;
