@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&family=Ewert&display=swap');
 body{
     font-family: var(Roboto);
-    max-width: 800 px;
+    max-width: 300 px;
     padding: 20 px;
 }
 :root{
@@ -49,40 +49,63 @@ nav a:hover{
 
 
 }
-.hero img{
-    display: block;
-    width: 650px;
-    height: auto;
+
+
+.hero{
     position: relative;
-    top: 2px;
+    text-align: center;
+}
+.hero img{
+    width: 100%;
+    height: 60%;
 }
 
-hero-content {
+.hero h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 3rem;
+}
+article{
+    position: absolute; /* Position container2 absolutely */
+    bottom: 20%; /* Position from the bottom of the parent container */
+    left: 0; /* Position from the left of the parent container */
+    margin-top: 50px; /* Adjust the margin-top if necessary */
+    background-color: rgba(54, 72, 124, 0.466);
     padding: 20px;
+    color: var(--text-color);
   }
-  
-  .hero-content h1 {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .hero-content article {
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-  }
-  
-  .hero-content article p {
+article img {
     float: right;
-  }
-  
+    margin-left: 20px;
+    max-width: 200px;
+}
+section {
+    margin-top: 50px;
+}
+section h2 {
+    margin-bottom: 20px;
+}
+section img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
