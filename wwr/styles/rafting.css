@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&family=Ewert&display=swap');
 body{
     font-family: var(Roboto);
-    max-width: 300 px;
-    padding: 20 px;
+    max-width: 1200px;
+    padding: 30px;
+    margin: 50px;
+    border: 30px;
+    border-color: solid black;
 }
+
 :root{
-    --primary-color: #d45f00;
+    --primary-color: #d47f00;
     --secondary-color:#FF8801;
     --accent1-color:#FF950B;
     --accent2-color:#FFAD1F;
@@ -33,6 +37,7 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: right;
 }
 nav a{
     display: block;
@@ -54,10 +59,11 @@ nav a:hover{
 .hero{
     position: relative;
     text-align: center;
+    width: 100%;
 }
 .hero img{
     width: 100%;
-    height: 60%;
+    height: 50%;
 }
 
 .hero h1 {
@@ -86,6 +92,7 @@ section {
 }
 section h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 section img {
     width: 50%;
@@ -107,5 +114,32 @@ footer a img {
     width: 30px;
     margin: 0 10px;
 }
-
-
+  header{
+        display: grid;
+        grid-template-columns: 6fr 7fr 6fr ; /* Adjust as needed */
+        align-items: center;
+        padding: 20px;
+  }
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  .hero2{
+    display: flex;
+    flex-direction: row;
+  }
+  .socialb{
+    display: flex;
+    justify-content: flex-end;
+  }
