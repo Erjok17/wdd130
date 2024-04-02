@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&family=Ewert&display=swap');
 body{
-    font-family: var(Roboto);
+    font-family: var(Roboto-bold);
     max-width: 1200px;
     padding: 30px;
     margin: 50px;
