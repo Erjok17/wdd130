@@ -147,3 +147,44 @@ footer a img {
     display: flex;
     justify-content: flex-end;
   }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main{
+
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f84f;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
